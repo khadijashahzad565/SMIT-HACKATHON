@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>class</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body class="add-class-main">
+    <h1 class="add-class-heading">Create Class</h1>
+    <div class="add-class-form">
+        <input class="add-class-fields" id="timing" type="text" placeholder="Enter class timings">
+        <input class="add-class-fields" id="schedule" type="text" placeholder="Enter class schedule">
+        <input class="add-class-fields" id="teacher-name" type="text" placeholder="Enter teacher name">
+        <input class="add-class-fields" id="sec-name" type="text" placeholder="Enter section name">
+        <input class="add-class-fields" id="course-name" type="text" placeholder="Enter course name">
+        <input class="add-class-fields" id="batch-name" type="text" placeholder="Eneter batch name">
+        <div class="class-btns">
+            <a  href="../home.html"><button class="adc-class-btn">Back</button></a>
+            <button onclick="addClass()" class="adc-class-btn">Create</button></div>
+       </div>
+    
+</body>
+<script type="module" src="../config/firebase.js"></script>
+<script type="module" src="class.js"></script>
+</html>

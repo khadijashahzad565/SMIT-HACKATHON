@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>students</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+
+<body class="add-student-main">
+
+  <h1 class="add-student-heading">Create Student</h1>
+  <div class="add-student-form">
+    <input class="add-student-fields" id="name" type="text" placeholder="Enter name">
+    <input class="add-student-fields" id="father-name" type="text" placeholder="Enter father name">
+    <input class="add-student-fields" id="roll-no" type="text" placeholder="Roll no">
+    <input class="add-student-fields" id="contact-no" type="text" placeholder="Enter Contact no">
+    <input class="add-student-fields" id="cnic" type="text" placeholder="Enter CNIC">
+    <input class="add-student-fields" id="cousre-name-forstudent" type="text" placeholder="Eneter course name">
+    <input class="add-student-fields" type="file" id="image">
+    <p>select course</p>
+    <select onclick="courses()" name="courses" id="select-course">
+    </select>
+  
+
+    <div class="class-btns">
+      <a href="../home.html"><button class="adc-student-btn">Back</button></a>
+      <button onclick="addStudent()" class="adc-student-btn">Add</button>
+    </div>
+  </div>
+
+</body>
+<script type="module" src="student.js"></script>
+<script type="module" src="../config/firebase.js"></script>
+
+</html>
